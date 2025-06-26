@@ -1,0 +1,5 @@
+SELECT * FROM products ORDER BY price ASC;
+SELECT * FROM products ORDER BY stock DESC;
+SELECT * FROM customers ORDER BY name;
+SELECT * FROM products ORDER BY stock ASC, price DESC;
+SELECT * FROM customers ORDER BY SUBSTRING_INDEX(email, '@', -1);
